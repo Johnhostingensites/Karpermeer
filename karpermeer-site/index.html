@@ -47,20 +47,14 @@
           <h2>Recreatiewoningen in de Achterhoek</h2>
         </div>
         <div class="support-grid">
-          <a class="support-card card-1" href="https://karpermeer.nl/" target="_blank" rel="noopener">
-            <div class="number">01</div>
+          <a class="support-card card-1 image-has-text" href="https://karpermeer.nl/" target="_blank" rel="noopener" aria-label="Snackbar & Restaurant">
             <h3>Snackbar & Restaurant</h3>
-            <img src="https://cdn.prod.website-files.com/648590fb14507f85e62a6efb/64908f473d26f8deb7a7bd2e_2020-Logo-Karpermeer.jpeg" alt="Restaurant Karpermeer" />
           </a>
-          <a class="support-card card-2" href="#historie">
-            <div class="number">02</div>
+          <a class="support-card card-2" href="#historie" aria-label="Historie">
             <h3>Historie</h3>
-            <span class="shape triangle"></span>
           </a>
-          <a class="support-card card-3" href="#koop">
-            <div class="number">03</div>
+          <a class="support-card card-3" href="#koop" aria-label="Chalets te koop">
             <h3>Chalets te koop</h3>
-            <span class="shape rectangle"></span>
           </a>
         </div>
       </div>
@@ -120,20 +114,11 @@
           <p><strong>Karpermeer BV</strong></p>
           <p><strong>Bezoekadres:</strong><br>Haartseweg 2 Aalten</p>
         </div>
-        <div class="contact-right">
-          <h2>Vul het contactformulier in</h2>
-          <p>We lezen deze berichten dagelijks, laat je naam en telefoonnummer achter en we nemen snel contact met je op!</p>
-          <form class="contact-form" action="mailto:info@karpermeer.com" method="post" enctype="text/plain">
-            <label for="naam">Naam</label>
-            <input id="naam" name="Naam" type="text" placeholder="Vul je naam in">
-            <label for="email">E-mail adres</label>
-            <input id="email" name="Email" type="email" placeholder="Vul je e-mail adres in" required>
-            <label for="telefoon">Telefoonnummer</label>
-            <input id="telefoon" name="Telefoon" type="tel" placeholder="Vul je telefoonnummer in">
-            <label for="bericht">Bericht</label>
-            <textarea id="bericht" name="Bericht" placeholder="Laat je bericht achter"></textarea>
-            <button class="btn" type="submit">Verstuur</button>
-          </form>
+        <div class="contact-right contact-card">
+          <h2>Neem contact op</h2>
+          <p>Heeft u een vraag over het park, de mogelijkheden of een chalet aan het Karpermeer? Neem dan gerust contact met ons op.</p>
+          <p>Het makkelijkste werkt het om ons rechtstreeks een bericht te sturen. We lezen berichten regelmatig en nemen zo snel mogelijk contact met u op.</p>
+          <a class="btn" href="mailto:info@karpermeer.com?subject=Contact%20via%20website%20Karpermeer">Stuur een mail</a>
         </div>
       </div>
     </section>
@@ -149,7 +134,7 @@
         <p>Haartseweg 2A Aalten</p>
       </div>
     </div>
-    <div class="container footer-bottom">Copyright Karpermeer BV © 2023.</div>
+    <div class="container footer-bottom">Copyright Karpermeer BV © <span data-year></span>.</div>
   </footer>
 
   <script src="script.js"></script>

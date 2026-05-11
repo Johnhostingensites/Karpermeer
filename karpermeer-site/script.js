@@ -32,3 +32,8 @@ if (slider) {
   next.addEventListener('click', () => show(index + 1));
   show(0);
 }
+
+const yearElement = document.querySelector('[data-year]');
+if (yearElement) {
+  yearElement.textContent = new Date().getFullYear();
+}
